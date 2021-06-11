@@ -1,0 +1,38 @@
+{
+  "name": "@7inch/eslint-config",
+  "version": "0.0.7",
+  "main": "index.js",
+  "author": "lwy1010",
+  "scripts": {
+    "release": "npm publish --access public"
+  },
+  "peerDependencies": {
+    "eslint": "^7.20.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7inch/eslint-config.git"
+  },
+  "homepage": "https://github.com/7inch/eslint-config/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/7inch/eslint-config/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 100,
+    "tabWidth": 2
+  },
+  "license": "MIT"
+}
