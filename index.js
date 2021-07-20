@@ -1,25 +1,23 @@
 module.exports = {
   root: true,
   env: { browser: true, es2021: true },
-  extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:vue/vue3-essential',
-    'plugin:prettier/recommended',
-  ],
-  parser: 'vue-eslint-parser',
+  extends: ['eslint:recommended', 'plugin:vue/vue3-essential', 'plugin:prettier/recommended'],
   parserOptions: {
     ecmaVersion: 12,
-    parser: '@typescript-eslint/parser',
     sourceType: 'module',
   },
-  plugins: ['vue', '@typescript-eslint'],
-
+  plugins: ['vue'],
   // add your custom rule here with comments here.
   rules: {
+    /* 
+      JavaScript
+    */
     // using the const declaration is better.
     'prefer-const': 'error',
 
+    /* 
+      Vue.js
+    */
     // component name in template must use kebab-case style.
     'vue/component-name-in-template-casing': ['error', 'kebab-case'],
     // require name property for a component.
@@ -43,10 +41,5 @@ module.exports = {
     ],
     // using hyphenated attribute name on custom component
     'vue/attribute-hyphenation': ['error', 'always'],
-
-    // disallow unused variables
-    '@typescript-eslint/no-unused-vars': ['error'],
-    // don't require explicit return and argument types on exported functions' and classes' public class methods
-    '@typescript-eslint/explicit-module-boundary-types': ['off'],
   },
 };
