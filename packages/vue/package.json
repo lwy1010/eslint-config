@@ -1,6 +1,6 @@
 {
   "name": "@7inch/eslint-config-vue",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "main": "index.js",
   "author": "lwy1010 <im.leewy@gmail.com>",
   "publishConfig": {
@@ -13,7 +13,7 @@
     "eslint": "^7.20.0"
   },
   "dependencies": {
-    "@7inch/eslint-config-base": "^0.0.2",
+    "@7inch/eslint-config-base": "^0.1.0",
     "eslint-plugin-vue": "^7.14.0"
   },
   "repository": {
