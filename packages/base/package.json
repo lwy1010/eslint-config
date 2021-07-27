@@ -1,0 +1,29 @@
+{
+  "name": "@7inch/eslint-config-base",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "lwy1010 <im.leewy@gmail.com>",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": "^7.20.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7inch/eslint-config.git"
+  },
+  "homepage": "https://github.com/7inch/eslint-config/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/7inch/eslint-config/issues"
+  },
+  "license": "MIT"
+}

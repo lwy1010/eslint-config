@@ -1,34 +1,24 @@
 {
-  "name": "@7inch/eslint-config",
+  "name": "@antfu/eslint-config-monorepo",
   "version": "0.1.0",
-  "main": "index.js",
-  "author": "lwy1010",
+  "author": "lwy1010 <im.leewy@gmail.com>",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "release": "npm publish --access public"
+    "release": "lerna publish --conventional-commits"
   },
-  "peerDependencies": {
-    "eslint": "^7.20.0"
-  },
-  "dependencies": {
-    "eslint-config-prettier": "^7.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-vue": "^7.14.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/7inch/eslint-config.git"
-  },
-  "homepage": "https://github.com/7inch/eslint-config/blob/main/README.md",
-  "bugs": {
-    "url": "https://github.com/7inch/eslint-config/issues"
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "lerna": "^4.0.0",
+    "prettier": "^2.3.2"
   },
   "keywords": [
     "eslint",
     "eslint-config"
   ],
   "prettier": {
-    "singleQuote": true,
     "printWidth": 100,
     "tabWidth": 2
   },

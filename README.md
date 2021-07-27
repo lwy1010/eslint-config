@@ -19,7 +19,7 @@ create a .eslintrc.js configuration file in the root of your project:
 
 ```js
 module.exports = {
-  extends: ['@7inch/eslint-config'],
+  extends: ["@7inch/eslint-config"],
 };
 ```
 
