@@ -1,6 +1,6 @@
 {
   "name": "@7inch/eslint-config-base",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "author": "lwy1010 <im.leewy@gmail.com>",
   "publishConfig": {
