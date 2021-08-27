@@ -1,6 +1,6 @@
 {
   "name": "@7inch/eslint-config-base",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "index.js",
   "author": "lwy1010 <im.leewy@gmail.com>",
   "publishConfig": {
@@ -14,11 +14,11 @@
     "prettier": "^2.3.2"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-prettier": "^3.3.1",
-    "@typescript-eslint/eslint-plugin": "^4.29.3",
-    "@typescript-eslint/parser": "^4.29.3"
+    "eslint-plugin-prettier": "^3.3.1"
   },
   "repository": {
     "type": "git",
