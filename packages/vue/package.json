@@ -10,11 +10,14 @@
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": "^7.20.0"
+    "eslint": "^7.20.0",
+    "prettier": "^2.3.2"
   },
   "dependencies": {
     "@7inch/eslint-config-base": "^0.1.0",
-    "eslint-plugin-vue": "^7.14.0"
+    "eslint-plugin-vue": "^7.14.0",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3"
   },
   "repository": {
     "type": "git",

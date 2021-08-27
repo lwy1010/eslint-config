@@ -10,7 +10,8 @@
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": "^7.20.0"
+    "eslint": "^7.20.0",
+    "prettier": "^2.3.2"
   },
   "dependencies": {
     "@7inch/eslint-config-base": "^0.1.0",
