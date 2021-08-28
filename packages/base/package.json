@@ -10,20 +10,24 @@
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": "^7.20.0"
+    "eslint": "^7.20.0",
+    "prettier": "2.3.2"
   },
   "dependencies": {
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^3.3.1"
   },
+  "keywords": [
+    "eslint-config"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/7inch/eslint-config.git"
+    "url": "git+https://github.com/lwy1010/eslint-config.git"
   },
-  "homepage": "https://github.com/7inch/eslint-config/blob/main/README.md",
+  "homepage": "https://github.com/lwy1010/eslint-config/blob/main/README.md",
   "bugs": {
-    "url": "https://github.com/7inch/eslint-config/issues"
+    "url": "https://github.com/lwy1010/eslint-config/issues"
   },
   "license": "MIT"
 }

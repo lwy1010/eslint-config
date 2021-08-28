@@ -6,21 +6,36 @@ A friendly eslint config preset.
 
 ## Install
 
-```sh
-npm install eslint @7inch/eslint-config -D
+### For base JavaScript project
 
-# or with yarn
-yarn add eslint @7inch/eslint-config -D
+```sh
+npm i eslint prettier @7inch/eslint-config-base -D
 ```
 
-### Usage
+### For Vue.js project
 
-create a .eslintrc.js configuration file in the root of your project:
+```sh
+npm i eslint prettier @7inch/eslint-config-vue -D
+```
+
+### For Node.js project
+
+```sh
+npm i eslint prettier @7inch/eslint-config-node -D
+```
+
+## Usage
+
+Create a .eslintrc.js configuration file in the root of your project, take Vue.js project for example:
 
 ```js
 module.exports = {
-  extends: ["@7inch/eslint-config"],
+  extends: ["@7inch/eslint-config-vue"],
 };
 ```
 
-Checkout [Configuring ESLint](https://eslint.org/docs/user-guide/configuring/) to get more details.
+That's all, checkout [Configuring ESLint](https://eslint.org/docs/user-guide/configuring/) to get more details.
+
+## License
+
+MIT

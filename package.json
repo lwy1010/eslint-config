@@ -1,12 +1,10 @@
 {
-  "name": "@antfu/eslint-config-monorepo",
+  "name": "@7inch/eslint-config-monorepo",
   "version": "0.1.0",
   "author": "lwy1010 <im.leewy@gmail.com>",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "release": "lerna publish --conventional-commits"
   },
   "devDependencies": {
