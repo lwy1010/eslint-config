@@ -1,5 +1,10 @@
 module.exports = {
   extends: ["plugin:vue/vue3-essential", "@7inch/eslint-config-base"],
+  parserOptions: {
+    ecmaVersion: 12,
+    parser: "@typescript-eslint/parser",
+    sourceType: "module",
+  },
   overrides: [
     {
       files: ["*.vue"],
