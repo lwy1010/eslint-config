@@ -14,7 +14,7 @@
     "prettier": "2.3.2"
   },
   "dependencies": {
-    "@7inch/eslint-config-base": "workspace:^",
+    "@7inch/eslint-config-base": "^0.3.0",
     "eslint-plugin-vue": "^7.14.0",
     "@typescript-eslint/parser": "^4.29.3"
   },
