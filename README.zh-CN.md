@@ -4,21 +4,21 @@
 
 [English](README.md) | [中文](README.zh-CN.md)
 
-## Introduction
+## 介绍
 
-My eslint config preset, it's friendly and works well with Vue.js / Node.js project(both JS and TS);
+我的 eslint 配置集合, 规则友好且适用于 Vue.js / Node.js 项目(包括 JS and TS)。
 
-## Usage
+## 用法
 
-Take Vue.js project for example:
+以 Vue.js 项目为例：
 
-### Install
+### 安装
 
 ```sh
 npm i eslint  @7inch/eslint-config-vue -D
 ```
 
-### Config `.eslintrc.js`
+### 配置 `.eslintrc.js`
 
 ```js
 module.exports = {
@@ -26,14 +26,14 @@ module.exports = {
 };
 ```
 
-### Config `.eslintignore`
+### 配置 `.eslintignore`
 
 ```txt
 dist
 public
 ```
 
-### Add script for package.json
+### 在 package.json 中添加 eslint 脚本
 
 ```json
 {
@@ -43,9 +43,9 @@ public
 }
 ```
 
-### Config VSCode auto fix
+### 配置 VSCode 代码自动修复
 
-Create `.vscode/settings.json`
+创建 `.vscode/settings.json`
 
 ```js
 {
@@ -57,7 +57,7 @@ Create `.vscode/settings.json`
 }
 ```
 
-Checkout [eslint](https://eslint.org/) for more usage details.
+更多详情请移步 [eslint 文档](https://eslint.org/)
 
 ## License
 

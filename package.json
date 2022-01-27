@@ -8,17 +8,11 @@
     "release": "lerna publish --conventional-commits"
   },
   "devDependencies": {
-    "eslint": "^7.30.0",
-    "lerna": "^4.0.0",
-    "prettier": "^2.3.2"
+    "lerna": "^4.0.0"
   },
   "keywords": [
     "eslint",
     "eslint-config"
   ],
-  "prettier": {
-    "printWidth": 100,
-    "tabWidth": 2
-  },
   "license": "MIT"
 }
