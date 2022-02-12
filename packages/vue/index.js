@@ -1,4 +1,7 @@
 module.exports = {
+  env: {
+    "vue/setup-compiler-macros": true,
+  },
   extends: ["plugin:vue/vue3-essential", "@7inch/eslint-config-base"],
   parserOptions: {
     ecmaVersion: 12,
