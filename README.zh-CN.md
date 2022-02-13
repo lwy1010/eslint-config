@@ -61,4 +61,4 @@ public
 
 ## License
 
-MIT
+Made with ❤️ Published under [MIT License](./LICENSE).

@@ -61,4 +61,4 @@ Checkout [eslint](https://eslint.org/) for more usage details.
 
 ## License
 
-MIT
+Made with ❤️ Published under [MIT License](./LICENSE).
