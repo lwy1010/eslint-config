@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/lwy1010/eslint-config/compare/v0.4.0...v0.5.0) (2022-02-14)
+
+
+### Features
+
+* **vue:** add config for setup compiler macros ([c924154](https://github.com/lwy1010/eslint-config/commit/c9241546398a6803657761dc2eefdcbb5d22a1bb))
+
+
+
+
+
 # [0.4.0](https://github.com/lwy1010/eslint-config/compare/v0.3.0...v0.4.0) (2021-09-08)
 
 
