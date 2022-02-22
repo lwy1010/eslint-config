@@ -11,7 +11,7 @@
   ],
   "peerDependencies": {
     "eslint": "^7.20.0",
-    "prettier": "2.3.2"
+    "prettier": "^2.5.1"
   },
   "dependencies": {
     "@7inch/eslint-config-base": "^0.5.0"

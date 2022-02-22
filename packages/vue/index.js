@@ -2,6 +2,7 @@ module.exports = {
   env: {
     "vue/setup-compiler-macros": true,
   },
+  parser: "vue-eslint-parser",
   extends: ["plugin:vue/vue3-essential", "@7inch/eslint-config-base"],
   parserOptions: {
     ecmaVersion: 12,
@@ -35,6 +36,8 @@ module.exports = {
         ],
         // using hyphenated attribute name on custom component
         "vue/attribute-hyphenation": ["error", "always"],
+        // allow single name of component
+        "vue/multi-word-component-names": "off",
       },
     },
   ],

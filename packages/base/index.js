@@ -3,7 +3,7 @@ module.exports = {
   env: { browser: true, es2021: true, node: true },
   extends: ["eslint:recommended", "plugin:prettier/recommended"],
   rules: {
-    // Using the const declaration is better.
+    // using the const declaration is better.
     "prefer-const": "error",
   },
   overrides: [
@@ -16,10 +16,12 @@ module.exports = {
         sourceType: "module",
       },
       rules: {
-        // Disallow unused vars.
+        // disallow unused vars.
         "@typescript-eslint/no-unused-vars": "error",
-        // Do not  require explicit return and argument types on exported functions' and classes' public class methods.
+        // do not  require explicit return and argument types on exported functions' and classes' public class methods.
         "@typescript-eslint/explicit-module-boundary-types": "off",
+        // allow explicit any, but try not to use.
+        "@typescript-eslint/no-explicit-any": "off",
       },
     },
   ],
