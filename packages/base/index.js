@@ -22,6 +22,8 @@ module.exports = {
         "@typescript-eslint/explicit-module-boundary-types": "off",
         // allow explicit any, but try not to use.
         "@typescript-eslint/no-explicit-any": "off",
+        // always use T[] for types
+        "@typescript-eslint/array-type": ["error", { default: "array" }],
       },
     },
   ],
