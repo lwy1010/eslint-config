@@ -24,6 +24,8 @@ module.exports = {
         "@typescript-eslint/no-explicit-any": "off",
         // always use T[] for types
         "@typescript-eslint/array-type": ["error", { default: "array" }],
+        // allow use triple-slash reference type directives
+        "@typescript-eslint/triple-slash-reference": "off",
       },
     },
   ],
