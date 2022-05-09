@@ -26,6 +26,8 @@ module.exports = {
         "@typescript-eslint/array-type": ["error", { default: "array" }],
         // allow use triple-slash reference type directives
         "@typescript-eslint/triple-slash-reference": "off",
+        // allow null assertion
+        "@typescript-eslint/no-non-null-assertion": "off",
       },
     },
   ],
