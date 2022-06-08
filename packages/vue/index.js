@@ -41,4 +41,8 @@ module.exports = {
       },
     },
   ],
+  globals: {
+    // see https://github.com/sxzz/unplugin-vue-define-options
+    defineOptions: "readonly",
+  },
 };
