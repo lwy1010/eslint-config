@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/lwy1010/eslint-config/compare/v0.9.0...v0.10.0) (2022-06-08)
+
+
+### Features
+
+* update config ([22b02a5](https://github.com/lwy1010/eslint-config/commit/22b02a513b465572e586de088b283306e92c3094))
+
+
+
+
+
 # [0.9.0](https://github.com/lwy1010/eslint-config/compare/v0.8.0...v0.9.0) (2022-05-20)
 
 
