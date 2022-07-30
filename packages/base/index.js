@@ -5,6 +5,8 @@ module.exports = {
   rules: {
     // using the const declaration is better.
     "prefer-const": "error",
+    // warning if vars unused.
+    "no-unused-vars": "warn",
   },
   overrides: [
     {
@@ -16,8 +18,8 @@ module.exports = {
         sourceType: "module",
       },
       rules: {
-        // disallow unused vars.
-        "@typescript-eslint/no-unused-vars": "error",
+        // warning if vars unused.
+        "@typescript-eslint/no-unused-vars": "warn",
         // do not  require explicit return and argument types on exported functions' and classes' public class methods.
         "@typescript-eslint/explicit-module-boundary-types": "off",
         // allow explicit any, but try not to use.
