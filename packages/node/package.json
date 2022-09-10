@@ -14,7 +14,7 @@
     "prettier": "^2.5.1"
   },
   "dependencies": {
-    "@7inch/eslint-config-base": "^0.10.0"
+    "@7inch/eslint-config-base": "workspace:*"
   },
   "keywords": [
     "eslint-config"

@@ -6,7 +6,7 @@
 
 ## Introduction
 
-My eslint config preset, it works well with JavaScript/Typescript/Vue.js/Node.js projects.
+My eslint config preset, it works well with JavaScript/Typescript/React.js/Vue.js/Node.js projects.
 
 ## Usage
 

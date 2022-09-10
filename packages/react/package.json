@@ -1,5 +1,5 @@
 {
-  "name": "@7inch/eslint-config-vue",
+  "name": "@7inch/eslint-config-react",
   "version": "0.12.0",
   "main": "index.js",
   "author": "lwy1010 <im.leewy@gmail.com>",
@@ -15,8 +15,8 @@
   },
   "dependencies": {
     "@7inch/eslint-config-base": "workspace:*",
-    "@typescript-eslint/parser": "^4.29.3",
-    "eslint-plugin-vue": "^8.5.0"
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "keywords": [
     "eslint-config"

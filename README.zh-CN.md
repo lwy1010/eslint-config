@@ -6,7 +6,7 @@
 
 ## 介绍
 
-我的 eslint 配置集合，适用于 JavaScript/Typescript/Vue.js/Node.js 项目。
+我的 eslint 配置集合，适用于 JavaScript/Typescript/React.js/Vue.js/Node.js 项目。
 
 ## 用法
 
