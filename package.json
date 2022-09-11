@@ -1,6 +1,6 @@
 {
   "name": "@7inch/eslint-config-monorepo",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "author": "lwy1010 <im.leewy@gmail.com>",
   "private": true,
   "scripts": {
